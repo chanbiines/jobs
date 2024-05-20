@@ -1,0 +1,9 @@
+-React Native
+
+
+-Expo: Tools that'll allow us to get our app up & running in no time
+
+
+- To run the project :
+------$npm start android
+Note: u ve to download "Expo Go" from playstore if android , than u create an account there .So when u run the project by the command above it gonna display code QR , scan it , than u ve to get ADBD access to phone wwith laptop using this command "$adb tcpip 5555" but before u must give access by "$adb connect yourIP adress"

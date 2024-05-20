@@ -1,0 +1,17 @@
+#create project
+npx create-expo-app@latest -e with-router ./
+
+#install expo fonts
+npm install expo-font axios react-native-dotenv
+
+#giving access to Expo
+npm install -g expo-cli
+
+#check if all is okay
+expo-cli start --tunnel
+
+yarn add @react-navigation/native 
+@react-navigation/stack react-native-gifted-chat
+
+expo install firebase expo-constants dotenv react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view 
+
